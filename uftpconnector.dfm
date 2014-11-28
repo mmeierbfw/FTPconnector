@@ -14,6 +14,14 @@ object formftp: Tformftp
   OnCreate = FormCreate
   PixelsPerInch = 96
   TextHeight = 13
+  object Button1: TButton
+    Left = 368
+    Top = 344
+    Width = 75
+    Height = 25
+    Caption = 'Button1'
+    TabOrder = 0
+  end
   object ftpc: TFtpClient
     Timeout = 5000
     Port = 'ftp'

@@ -10,6 +10,7 @@ uses
 type
   Tformftp = class(TForm)
     ftpc: TFtpClient;
+    Button1: TButton;
     procedure FormCreate(Sender: TObject);
     procedure ftpcProgress64(Sender: TObject; Count: Int64; var Abort: Boolean);
     procedure ftpcError(Sender: TObject; var Msg: string);
