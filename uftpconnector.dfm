@@ -15,7 +15,7 @@ object formftp: Tformftp
   PixelsPerInch = 96
   TextHeight = 13
   object ftpc: TFtpClient
-    Timeout = 100
+    Timeout = 5000
     Port = 'ftp'
     CodePage = 0
     DataPortRangeStart = 0
